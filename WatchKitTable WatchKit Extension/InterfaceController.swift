@@ -12,6 +12,28 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
+    @IBOutlet var myTable: WKInterfaceTable!
+    
+    let cities = ["Portland","Austin","San Francisco","New York","Köln","Paris", "Brussels", "Amsterdam", "Bangalore", "Mumbai","Singapore"]
+    
+    
+    func loadTable(){
+        myTable.setNumberOfRows(cities.count, withRowType: "MyRowController")
+        for i in 0..<cities.count {
+            let row = myTable.rowControllerAtIndex(i) as! MyRowController
+            row.cityLabel.setText(cities[i])
+        }
+    }
+    
+    override init(){
+        super.init()
+        loadTable()
+    }
+    
+    override func table(table: WKInterfaceTable, didSelectRowAtIndex rowIndex: Int) {
+        print("selected \(cities[rowIndex])")
+    }
+    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         

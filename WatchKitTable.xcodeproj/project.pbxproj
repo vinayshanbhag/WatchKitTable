@@ -19,6 +19,7 @@
 		A137D9B41C47645B00436D61 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A137D9B31C47645B00436D61 /* InterfaceController.swift */; };
 		A137D9B61C47645B00436D61 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A137D9B51C47645B00436D61 /* ExtensionDelegate.swift */; };
 		A137D9B81C47645B00436D61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A137D9B71C47645B00436D61 /* Assets.xcassets */; };
+		A137D9C81C47660800436D61 /* MyRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A137D9C71C47660800436D61 /* MyRowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		A137D9B51C47645B00436D61 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		A137D9B71C47645B00436D61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A137D9B91C47645B00436D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A137D9C71C47660800436D61 /* MyRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyRowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 				A137D9B51C47645B00436D61 /* ExtensionDelegate.swift */,
 				A137D9B71C47645B00436D61 /* Assets.xcassets */,
 				A137D9B91C47645B00436D61 /* Info.plist */,
+				A137D9C71C47660800436D61 /* MyRowController.swift */,
 			);
 			path = "WatchKitTable WatchKit Extension";
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 			files = (
 				A137D9B61C47645B00436D61 /* ExtensionDelegate.swift in Sources */,
 				A137D9B41C47645B00436D61 /* InterfaceController.swift in Sources */,
+				A137D9C81C47660800436D61 /* MyRowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
